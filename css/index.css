@@ -430,9 +430,13 @@ a {
     vertical-align:middle;
 }
 .statistics-commodity-detail{
-    width: 98%;
-    margin: .3rem auto 0;
+    padding:0 .2rem;
+    margin: .4rem auto 0;
     color:#000;
+    font-size:.1rem;
+}
+.statistics-commodity-detail p{
+    margin-bottom: 1%;
 }
 .statistics-commodity-detail-table{
     width: 98%;
