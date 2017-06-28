@@ -112,12 +112,12 @@ $(document).ready(function () {
 
             if(ifAutoPlayFlag){
 
-                $('.swx-pic-play').attr('src','/sanweixiu/img/play.png');
+                $('.swx-pic-play').attr('src','/shineDial/img/play.png');
                 startMove();
 
             }else{
 
-                $('.swx-pic-play').attr('src','/sanweixiu/img/pause_play.png');
+                $('.swx-pic-play').attr('src','/shineDial/img/pause_play.png');
                 stopMove();
 
             }
@@ -126,12 +126,12 @@ $(document).ready(function () {
 
             if(ifAutoPlayFlag){
 
-                $('.swx-pic-play').attr('src','/sanweixiu/img/play.png');
+                $('.swx-pic-play').attr('src','/shineDial/img/play.png');
                 limitFlagPlay();
 
             }else{
 
-                $('.swx-pic-play').attr('src','/sanweixiu/img/pause_play.png');
+                $('.swx-pic-play').attr('src','/shineDial/img/pause_play.png');
                 limitFlagStop();
 
             }
@@ -183,7 +183,7 @@ $(document).ready(function () {
             hintCon.style.marginBottom = '5px';
             hintTxt.innerHTML = '可手动放大缩小';
             $(hintImg).removeClass('left-right-icon');
-            hintImg.src = '/sanweixiu/img/magnify_icon.png';
+            hintImg.src = '/shineDial/img/magnify_icon.png';
         },2000);
         setTimeout(function(){
             hintLayer.remove();
@@ -534,7 +534,7 @@ $(document).ready(function () {
 
                     }
 
-                    $('.swx-hot-spots').attr('src','/sanweixiu/img/hot_on.png');
+                    $('.swx-hot-spots').attr('src','/shineDial/img/hot_on.png');
 
                     //旋转图片跟随简介-热点
                     if (!isEmpty(jsonData.hotPicTags)){
@@ -578,7 +578,7 @@ $(document).ready(function () {
                     }
 
                     imgFollowDisc(jsonData.picTags,"img_desc1");
-                    $('.swx-hot-spots').attr('src','/sanweixiu/img/hot_off.png');
+                    $('.swx-hot-spots').attr('src','/shineDial/img/hot_off.png');
 
                 }
 
@@ -658,13 +658,13 @@ $(document).ready(function () {
 
         if(musicPlay){
 
-            $('.swx-music').attr('src','/sanweixiu/img/music.png');
+            $('.swx-music').attr('src','/shineDial/img/music.png');
             $('.swx-music').removeClass('music-pause');
             myAuto.play();
 
         }else{
 
-            $('.swx-music').attr('src','/sanweixiu/img/music_pause.png');
+            $('.swx-music').attr('src','/shineDial/img/music_pause.png');
             $('.swx-music').addClass('music-pause');
 
             myAuto.pause();
@@ -680,11 +680,11 @@ $(document).ready(function () {
         if(ifOpenBarrageFlag){
 
             $('.zpg-barrage-container').show();
-            $('.swx-barrage').attr('src','/sanweixiu/img/barrage_open.png');
+            $('.swx-barrage').attr('src','/shineDial/img/barrage_open.png');
 
         }else{
             $('.zpg-barrage-container').hide();
-            $('.swx-barrage').attr('src','/sanweixiu/img/barrage.png');
+            $('.swx-barrage').attr('src','/shineDial/img/barrage.png');
 
         }
     }
