@@ -142,7 +142,6 @@ $(document).ready(function() {
         timer = null;
         playStatus = true;
     }
-
     loadToDoHint();
     //操作全景图提示
     function loadToDoHint() {
@@ -159,7 +158,6 @@ $(document).ready(function() {
             4000);
     }
 
-
     function moveImg(ev) {
 
         var maxPosition = (parseInt($("#product1").css("width")) * imgScale) / 2 - (parseInt($("#product1").css("width")) / 2); //缩放后的图宽
@@ -170,7 +168,6 @@ $(document).ready(function() {
         var mLenY = (mMoveY - mStartY) / 20; //Y轴位移
         currentLeft = currentLeft + mLenX;
         currentTop = currentTop + mLenY;
-
 
         if (imgScale <= 1) {
 
